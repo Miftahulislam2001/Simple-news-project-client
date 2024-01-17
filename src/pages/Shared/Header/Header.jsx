@@ -14,7 +14,7 @@ const Header = () => {
 
             <div className='flex bg-base-200 my-5 rounded'>
                 <button className="btn btn-error text-[#f5f2f2] font-semibold">Latest</button>
-            <Marquee gradient={200}>
+                <Marquee gradient={200}>
                     I can be a React component, multiple React components, or just some text.... I can be a React component, multiple React components, or just some text.... I can be a React component, multiple React components, or just some text.
                 </Marquee>
             </div>
@@ -51,6 +51,27 @@ const Header = () => {
                         <img className='rounded-full object-cover' alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
                     </div>
                     <a className="btn btn-sm bg-gray-600 rounded-none text-white font-bold px-6">Login</a>
+                </div>
+
+
+                
+            </div>
+
+
+
+            <div className="my-container">
+                <div className="grid lg:grid-cols-4 gap-4 text-center">
+
+                    <div className="">
+                        left side
+                    </div>
+                    <div className="col-span-2 ">
+                        center section
+                    </div>
+                    <div className="">
+                        Right side section
+                    </div>
+
                 </div>
             </div>
 
