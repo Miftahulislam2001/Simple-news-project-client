@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 
 const Header = () => {
     return (
-        <div className='my-container'>
+        <div className='my-container mb-0'>
             <div className="flex flex-col justify-center items-center gap-3">
                 <img src={logo} alt="" srcset="" />
                 <p className='font-sans text-[#706F6F] text-lg'> Journalism Without Fear or Favour</p>
@@ -55,24 +55,6 @@ const Header = () => {
 
 
                 
-            </div>
-
-
-
-            <div className="my-container">
-                <div className="grid lg:grid-cols-4 gap-4 text-center">
-
-                    <div className="">
-                        left side
-                    </div>
-                    <div className="col-span-2 ">
-                        center section
-                    </div>
-                    <div className="">
-                        Right side section
-                    </div>
-
-                </div>
             </div>
 
         </div>
