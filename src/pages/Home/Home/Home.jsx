@@ -1,5 +1,6 @@
 import React from 'react';
 import RightSideBar from '../../Shared/RightSide/RightSideBar';
+import LeftSide from '../../Shared/LeftSide/LeftSide';
 
 const Home = () => {
     return (
@@ -7,7 +8,7 @@ const Home = () => {
                 <div className="grid lg:grid-cols-4 gap-4">
 
                     <div className="">
-                        left side
+                        <LeftSide/>
                     </div>
                     <div className="col-span-2 ">
                         center section

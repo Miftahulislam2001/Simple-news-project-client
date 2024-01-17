@@ -5,3 +5,7 @@
 .my-container{
     @apply px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-3 lg:py-10
   }
+
+  .active{
+    @apply  tracking-wide text-cyan-600 transition-colors duration-200 font-bold
+  }

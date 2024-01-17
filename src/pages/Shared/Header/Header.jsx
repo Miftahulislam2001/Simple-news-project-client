@@ -14,7 +14,7 @@ const Header = () => {
 
             <div className='flex bg-base-200 my-5 rounded'>
                 <button className="btn btn-error text-[#f5f2f2] font-semibold">Latest</button>
-                <Marquee gradient={200}>
+                <Marquee gradient={200} className='text-orange-700'>
                     I can be a React component, multiple React components, or just some text.... I can be a React component, multiple React components, or just some text.... I can be a React component, multiple React components, or just some text.
                 </Marquee>
             </div>
